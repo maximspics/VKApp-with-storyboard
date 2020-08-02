@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A07BE57233543C4003C40E1 /* FriendsImagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A07BE56233543C4003C40E1 /* FriendsImagesController.swift */; };
+		2A07BE592335464F003C40E1 /* AllGroupsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A07BE582335464F003C40E1 /* AllGroupsController.swift */; };
+		2A21D8E5238C967E00E29CFF /* LabelAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A21D8E4238C967E00E29CFF /* LabelAnimation.swift */; };
+		2A21D8E7238C9F0C00E29CFF /* CollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A21D8E6238C9F0C00E29CFF /* CollectionLayout.swift */; };
+		2A21D8E9238CC26700E29CFF /* BigPhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A21D8E8238CC26700E29CFF /* BigPhotoController.swift */; };
+		2A231447236B9E13003877A2 /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A231446236B9E13003877A2 /* Header.xib */; };
+		2A231449236B9E83003877A2 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A231448236B9E83003877A2 /* Header.swift */; };
+		2A25F11C23D3A59B0011D3DC /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A25F11B23D3A59B0011D3DC /* University.swift */; };
+		2A273136239340C600B32925 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A273135239340C600B32925 /* Session.swift */; };
+		2A27913423DE43AE00AE8331 /* NewsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27913223DE43AE00AE8331 /* NewsTableCell.swift */; };
+		2A27913523DE43AE00AE8331 /* NewsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A27913323DE43AE00AE8331 /* NewsTableCell.xib */; };
+		2A27913823DE4E2000AE8331 /* NewsImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27913623DE4E2000AE8331 /* NewsImageCell.swift */; };
+		2A27913923DE4E2000AE8331 /* NewsImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A27913723DE4E2000AE8331 /* NewsImageCell.xib */; };
+		2A593ED423DEFDF900B2969C /* NewsShareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A593ED223DEFDF900B2969C /* NewsShareCell.swift */; };
+		2A593ED523DEFDF900B2969C /* NewsShareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A593ED323DEFDF900B2969C /* NewsShareCell.xib */; };
+		2A593ED723DF15BD00B2969C /* NewsFeedAttachments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A593ED623DF15BD00B2969C /* NewsFeedAttachments.swift */; };
+		2A593ED923E1BC2300B2969C /* NewsFeedProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A593ED823E1BC2300B2969C /* NewsFeedProfiles.swift */; };
+		2A593EDB23E59E5600B2969C /* NewsFeedGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A593EDA23E59E5600B2969C /* NewsFeedGroup.swift */; };
+		2A5AF46223D77D0500E6F75B /* NewsFeedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5AF46123D77D0500E6F75B /* NewsFeedItems.swift */; };
+		2A5AF46423D79B4200E6F75B /* NewsFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5AF46323D79B4200E6F75B /* NewsFeedController.swift */; };
+		2A5DA4CE2475DD8F00C7808B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5DA4CD2475DD8E00C7808B /* WebKit.framework */; };
+		2A5EDD7F23871F1F00264FFA /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5EDD7E23871F1F00264FFA /* Group.swift */; };
+		2A5EDD8123872E7700264FFA /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5EDD8023872E7700264FFA /* LoadingAnimation.swift */; };
+		2A642230232FBAC1006DF482 /* MyFriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A64222F232FBAC1006DF482 /* MyFriendsController.swift */; };
+		2A642232232FBAEE006DF482 /* MyGroupsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A642231232FBAEE006DF482 /* MyGroupsController.swift */; };
+		2A65BA2F234A27F5009C6F0B /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A65BA2E234A27F5009C6F0B /* NewsCell.swift */; };
+		2A7006CF2377DAD1005BC8EB /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7006CE2377DAD1005BC8EB /* News.swift */; };
+		2A7C587B234765B300DF388A /* UIBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C587A234765B300DF388A /* UIBezierPathExtension.swift */; };
+		2A7C587D234765DA00DF388A /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C587C234765DA00DF388A /* UIImageExtensions.swift */; };
+		2A8921F72395A6FE003DD4CB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8921F62395A6FE003DD4CB /* NetworkService.swift */; };
+		2A9E314B2327C8E0007DB3E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E314A2327C8E0007DB3E6 /* AppDelegate.swift */; };
+		2A9E314D2327C8E0007DB3E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E314C2327C8E0007DB3E6 /* LoginViewController.swift */; };
+		2A9E31502327C8E0007DB3E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9E314E2327C8E0007DB3E6 /* Main.storyboard */; };
+		2A9E31522327C8E0007DB3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9E31512327C8E0007DB3E6 /* Assets.xcassets */; };
+		2A9E31552327C8E0007DB3E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9E31532327C8E0007DB3E6 /* LaunchScreen.storyboard */; };
+		2AAB7FF123381D4A0051AE5B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB7FF023381D4A0051AE5B /* User.swift */; };
+		2AAB7FF52338D79F0051AE5B /* UserImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB7FF42338D79F0051AE5B /* UserImageView.swift */; };
+		2AAB7FF72338F72B0051AE5B /* UserImageShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB7FF62338F72B0051AE5B /* UserImageShadow.swift */; };
+		2AAB7FF9233BE9020051AE5B /* LikeControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB7FF8233BE9020051AE5B /* LikeControll.swift */; };
+		2AAFA4FC23467C5200EEE296 /* FriendsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AAFA4FB23467C5200EEE296 /* FriendsCell.xib */; };
+		2AAFA50223471CAB00EEE296 /* FriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAFA50123471CAB00EEE296 /* FriendsCell.swift */; };
+		2AAFA50423471DDA00EEE296 /* GroupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAFA50323471DDA00EEE296 /* GroupsCell.swift */; };
+		2AB8D10A2387F6E00049989C /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8D1092387F6E00049989C /* Animator.swift */; };
+		2AB8D10C23880E2A0049989C /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8D10B23880E2A0049989C /* CustomNavigationController.swift */; };
+		2AB8D10E23881C6A0049989C /* CustomPush+PopAnimators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8D10D23881C6A0049989C /* CustomPush+PopAnimators.swift */; };
+		2AB8D110238825650049989C /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8D10F238825650049989C /* CustomSegue.swift */; };
+		2ABC30E22377F07900FE1BAE /* NewsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC30E12377F07900FE1BAE /* NewsImageView.swift */; };
+		2ABC30E62378018100FE1BAE /* NewsImagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC30E52378018100FE1BAE /* NewsImagesCell.swift */; };
+		2AD1F670237B73DB0035EDFA /* GroupXibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD1F66E237B73DB0035EDFA /* GroupXibCell.swift */; };
+		2AD1F671237B73DB0035EDFA /* GroupXibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD1F66F237B73DB0035EDFA /* GroupXibCell.xib */; };
+		2AD9A1B823B3A8A70091DF91 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD9A1B723B3A8A70091DF91 /* Photo.swift */; };
+		2AE0F8F92366FBA50097BE9A /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE0F8F82366FBA50097BE9A /* UIViewController+Ext.swift */; };
+		2AE24A902395CF2D00EF9A9E /* VKLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE24A8F2395CF2C00EF9A9E /* VKLoginController.swift */; };
+		2AECD89E2337F79A00FFD790 /* UserImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AECD89D2337F79A00FFD790 /* UserImageCell.swift */; };
+		2AEFF453242A6AD300CBD1EE /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEFF452242A6AD300CBD1EE /* RealmService.swift */; };
+		6CA4AE41166FF55D4111892D /* Pods_VKontakte.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40352B6E88B1E6C7262AB5D /* Pods_VKontakte.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A07BE56233543C4003C40E1 /* FriendsImagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsImagesController.swift; sourceTree = "<group>"; };
+		2A07BE582335464F003C40E1 /* AllGroupsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsController.swift; sourceTree = "<group>"; };
+		2A21D8E4238C967E00E29CFF /* LabelAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelAnimation.swift; sourceTree = "<group>"; };
+		2A21D8E6238C9F0C00E29CFF /* CollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionLayout.swift; sourceTree = "<group>"; };
+		2A21D8E8238CC26700E29CFF /* BigPhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigPhotoController.swift; sourceTree = "<group>"; };
+		2A231446236B9E13003877A2 /* Header.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
+		2A231448236B9E83003877A2 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		2A25F11B23D3A59B0011D3DC /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		2A273135239340C600B32925 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		2A27913223DE43AE00AE8331 /* NewsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableCell.swift; sourceTree = "<group>"; };
+		2A27913323DE43AE00AE8331 /* NewsTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableCell.xib; sourceTree = "<group>"; };
+		2A27913623DE4E2000AE8331 /* NewsImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsImageCell.swift; sourceTree = "<group>"; };
+		2A27913723DE4E2000AE8331 /* NewsImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsImageCell.xib; sourceTree = "<group>"; };
+		2A593ED223DEFDF900B2969C /* NewsShareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsShareCell.swift; sourceTree = "<group>"; };
+		2A593ED323DEFDF900B2969C /* NewsShareCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsShareCell.xib; sourceTree = "<group>"; };
+		2A593ED623DF15BD00B2969C /* NewsFeedAttachments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedAttachments.swift; sourceTree = "<group>"; };
+		2A593ED823E1BC2300B2969C /* NewsFeedProfiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedProfiles.swift; sourceTree = "<group>"; };
+		2A593EDA23E59E5600B2969C /* NewsFeedGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedGroup.swift; sourceTree = "<group>"; };
+		2A5AF46123D77D0500E6F75B /* NewsFeedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedItems.swift; sourceTree = "<group>"; };
+		2A5AF46323D79B4200E6F75B /* NewsFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedController.swift; sourceTree = "<group>"; };
+		2A5DA4CD2475DD8E00C7808B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		2A5EDD7E23871F1F00264FFA /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		2A5EDD8023872E7700264FFA /* LoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimation.swift; sourceTree = "<group>"; };
+		2A64222F232FBAC1006DF482 /* MyFriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsController.swift; sourceTree = "<group>"; };
+		2A642231232FBAEE006DF482 /* MyGroupsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsController.swift; sourceTree = "<group>"; };
+		2A65BA2E234A27F5009C6F0B /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		2A7006CE2377DAD1005BC8EB /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		2A7C587A234765B300DF388A /* UIBezierPathExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBezierPathExtension.swift; sourceTree = "<group>"; };
+		2A7C587C234765DA00DF388A /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		2A8921F62395A6FE003DD4CB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		2A9E31472327C8E0007DB3E6 /* VKontakte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKontakte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9E314A2327C8E0007DB3E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A9E314C2327C8E0007DB3E6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2A9E314F2327C8E0007DB3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A9E31512327C8E0007DB3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A9E31542327C8E0007DB3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A9E31562327C8E0007DB3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AAB7FF023381D4A0051AE5B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2AAB7FF42338D79F0051AE5B /* UserImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImageView.swift; sourceTree = "<group>"; };
+		2AAB7FF62338F72B0051AE5B /* UserImageShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImageShadow.swift; sourceTree = "<group>"; };
+		2AAB7FF8233BE9020051AE5B /* LikeControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeControll.swift; sourceTree = "<group>"; };
+		2AAFA4FB23467C5200EEE296 /* FriendsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsCell.xib; sourceTree = "<group>"; };
+		2AAFA50123471CAB00EEE296 /* FriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCell.swift; sourceTree = "<group>"; };
+		2AAFA50323471DDA00EEE296 /* GroupsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCell.swift; sourceTree = "<group>"; };
+		2AB8D1092387F6E00049989C /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		2AB8D10B23880E2A0049989C /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		2AB8D10D23881C6A0049989C /* CustomPush+PopAnimators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomPush+PopAnimators.swift"; sourceTree = "<group>"; };
+		2AB8D10F238825650049989C /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		2ABC30E12377F07900FE1BAE /* NewsImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsImageView.swift; sourceTree = "<group>"; };
+		2ABC30E52378018100FE1BAE /* NewsImagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsImagesCell.swift; sourceTree = "<group>"; };
+		2AD1F66E237B73DB0035EDFA /* GroupXibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupXibCell.swift; sourceTree = "<group>"; };
+		2AD1F66F237B73DB0035EDFA /* GroupXibCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupXibCell.xib; sourceTree = "<group>"; };
+		2AD9A1B723B3A8A70091DF91 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		2AE0F8F82366FBA50097BE9A /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		2AE24A8F2395CF2C00EF9A9E /* VKLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKLoginController.swift; sourceTree = "<group>"; };
+		2AECD89D2337F79A00FFD790 /* UserImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImageCell.swift; sourceTree = "<group>"; };
+		2AEFF452242A6AD300CBD1EE /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		B40352B6E88B1E6C7262AB5D /* Pods_VKontakte.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKontakte.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59F49795140D4F7B03DB23F /* Pods-VKontakte.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKontakte.release.xcconfig"; path = "Target Support Files/Pods-VKontakte/Pods-VKontakte.release.xcconfig"; sourceTree = "<group>"; };
+		F972342E2C67BE89CC92744C /* Pods-VKontakte.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKontakte.debug.xcconfig"; path = "Target Support Files/Pods-VKontakte/Pods-VKontakte.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A9E31442327C8E0007DB3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5DA4CE2475DD8F00C7808B /* WebKit.framework in Frameworks */,
+				6CA4AE41166FF55D4111892D /* Pods_VKontakte.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B79675162E1F14A22048323 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F972342E2C67BE89CC92744C /* Pods-VKontakte.debug.xcconfig */,
+				D59F49795140D4F7B03DB23F /* Pods-VKontakte.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2A25F10E23D3961E0011D3DC /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				2A25F11123D396F00011D3DC /* Model */,
+				2A25F11223D397080011D3DC /* View */,
+				2A25F11323D3975A0011D3DC /* Controller */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		2A25F10F23D396680011D3DC /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				2A25F11723D397F70011D3DC /* Model */,
+				2A25F11623D397F00011D3DC /* View */,
+				2A25F11523D397E70011D3DC /* Controller */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		2A25F11023D396790011D3DC /* News */ = {
+			isa = PBXGroup;
+			children = (
+				2AAB7FEF23381D2B0051AE5B /* Model */,
+				2A25F11823D39A170011D3DC /* View */,
+				2A25F11923D39A240011D3DC /* Controller */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		2A25F11123D396F00011D3DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AAB7FF023381D4A0051AE5B /* User.swift */,
+				2AD9A1B723B3A8A70091DF91 /* Photo.swift */,
+				2A25F11B23D3A59B0011D3DC /* University.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A25F11223D397080011D3DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AAFA4FB23467C5200EEE296 /* FriendsCell.xib */,
+				2AAFA50123471CAB00EEE296 /* FriendsCell.swift */,
+				2A231446236B9E13003877A2 /* Header.xib */,
+				2A231448236B9E83003877A2 /* Header.swift */,
+				2AECD89D2337F79A00FFD790 /* UserImageCell.swift */,
+				2AAB7FF42338D79F0051AE5B /* UserImageView.swift */,
+				2AAB7FF62338F72B0051AE5B /* UserImageShadow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A25F11323D3975A0011D3DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A64222F232FBAC1006DF482 /* MyFriendsController.swift */,
+				2A07BE56233543C4003C40E1 /* FriendsImagesController.swift */,
+				2A21D8E8238CC26700E29CFF /* BigPhotoController.swift */,
+				2AAB7FF8233BE9020051AE5B /* LikeControll.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A25F11423D397AC0011D3DC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2AE24A8F2395CF2C00EF9A9E /* VKLoginController.swift */,
+				2A9E314C2327C8E0007DB3E6 /* LoginViewController.swift */,
+				2A5EDD8023872E7700264FFA /* LoadingAnimation.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2A25F11523D397E70011D3DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A642231232FBAEE006DF482 /* MyGroupsController.swift */,
+				2A07BE582335464F003C40E1 /* AllGroupsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A25F11623D397F00011D3DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AD1F66F237B73DB0035EDFA /* GroupXibCell.xib */,
+				2AD1F66E237B73DB0035EDFA /* GroupXibCell.swift */,
+				2AAFA50323471DDA00EEE296 /* GroupsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A25F11723D397F70011D3DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A5EDD7E23871F1F00264FFA /* Group.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A25F11823D39A170011D3DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A65BA2E234A27F5009C6F0B /* NewsCell.swift */,
+				2ABC30E52378018100FE1BAE /* NewsImagesCell.swift */,
+				2ABC30E12377F07900FE1BAE /* NewsImageView.swift */,
+				2A27913223DE43AE00AE8331 /* NewsTableCell.swift */,
+				2A27913323DE43AE00AE8331 /* NewsTableCell.xib */,
+				2A27913623DE4E2000AE8331 /* NewsImageCell.swift */,
+				2A27913723DE4E2000AE8331 /* NewsImageCell.xib */,
+				2A593ED223DEFDF900B2969C /* NewsShareCell.swift */,
+				2A593ED323DEFDF900B2969C /* NewsShareCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A25F11923D39A240011D3DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A5AF46323D79B4200E6F75B /* NewsFeedController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A64223323339BE0006DF482 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2A9E314E2327C8E0007DB3E6 /* Main.storyboard */,
+				2A9E31532327C8E0007DB3E6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2A980E10232F893D00863DAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A8921F62395A6FE003DD4CB /* NetworkService.swift */,
+				2AEFF452242A6AD300CBD1EE /* RealmService.swift */,
+				2A273135239340C600B32925 /* Session.swift */,
+				2A9E31512327C8E0007DB3E6 /* Assets.xcassets */,
+				2A9E314A2327C8E0007DB3E6 /* AppDelegate.swift */,
+				2A9E31562327C8E0007DB3E6 /* Info.plist */,
+				2A64223323339BE0006DF482 /* Storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A9E313E2327C8E0007DB3E6 = {
+			isa = PBXGroup;
+			children = (
+				2A9E31492327C8E0007DB3E6 /* VKontakte */,
+				2A9E31482327C8E0007DB3E6 /* Products */,
+				A9B0D81670E58DE1C2B9DC9F /* Frameworks */,
+				1B79675162E1F14A22048323 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2A9E31482327C8E0007DB3E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A9E31472327C8E0007DB3E6 /* VKontakte.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A9E31492327C8E0007DB3E6 /* VKontakte */ = {
+			isa = PBXGroup;
+			children = (
+				2A980E10232F893D00863DAC /* Resources */,
+				2AB8D1082387F6820049989C /* UiHelpers */,
+				2A25F11423D397AC0011D3DC /* Login */,
+				2A25F10E23D3961E0011D3DC /* Friends */,
+				2A25F10F23D396680011D3DC /* Groups */,
+				2A25F11023D396790011D3DC /* News */,
+				2AD9A1B623B16B830091DF91 /* View */,
+			);
+			path = VKontakte;
+			sourceTree = "<group>";
+		};
+		2AAB7FEF23381D2B0051AE5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A7006CE2377DAD1005BC8EB /* News.swift */,
+				2A5AF46123D77D0500E6F75B /* NewsFeedItems.swift */,
+				2A593ED823E1BC2300B2969C /* NewsFeedProfiles.swift */,
+				2A593EDA23E59E5600B2969C /* NewsFeedGroup.swift */,
+				2A593ED623DF15BD00B2969C /* NewsFeedAttachments.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AB8D1082387F6820049989C /* UiHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				2AB8D1092387F6E00049989C /* Animator.swift */,
+				2AB8D10B23880E2A0049989C /* CustomNavigationController.swift */,
+				2AB8D10D23881C6A0049989C /* CustomPush+PopAnimators.swift */,
+				2AB8D10F238825650049989C /* CustomSegue.swift */,
+				2A21D8E4238C967E00E29CFF /* LabelAnimation.swift */,
+				2A21D8E6238C9F0C00E29CFF /* CollectionLayout.swift */,
+				2AE0F8F82366FBA50097BE9A /* UIViewController+Ext.swift */,
+			);
+			path = UiHelpers;
+			sourceTree = "<group>";
+		};
+		2AD9A1B623B16B830091DF91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C587A234765B300DF388A /* UIBezierPathExtension.swift */,
+				2A7C587C234765DA00DF388A /* UIImageExtensions.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A9B0D81670E58DE1C2B9DC9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A5DA4CD2475DD8E00C7808B /* WebKit.framework */,
+				B40352B6E88B1E6C7262AB5D /* Pods_VKontakte.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A9E31462327C8E0007DB3E6 /* VKontakte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9E31592327C8E0007DB3E6 /* Build configuration list for PBXNativeTarget "VKontakte" */;
+			buildPhases = (
+				5AA99457362F66455FB64B50 /* [CP] Check Pods Manifest.lock */,
+				2A9E31432327C8E0007DB3E6 /* Sources */,
+				2A9E31442327C8E0007DB3E6 /* Frameworks */,
+				2A9E31452327C8E0007DB3E6 /* Resources */,
+				7203B2C5AF7E993FCDBE68CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKontakte;
+			productName = VKontakte;
+			productReference = 2A9E31472327C8E0007DB3E6 /* VKontakte.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A9E313F2327C8E0007DB3E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Maxim Safronov";
+				TargetAttributes = {
+					2A9E31462327C8E0007DB3E6 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 2A9E31422327C8E0007DB3E6 /* Build configuration list for PBXProject "VKontakte" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A9E313E2327C8E0007DB3E6;
+			productRefGroup = 2A9E31482327C8E0007DB3E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A9E31462327C8E0007DB3E6 /* VKontakte */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A9E31452327C8E0007DB3E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A593ED523DEFDF900B2969C /* NewsShareCell.xib in Resources */,
+				2A9E31552327C8E0007DB3E6 /* LaunchScreen.storyboard in Resources */,
+				2A231447236B9E13003877A2 /* Header.xib in Resources */,
+				2A27913923DE4E2000AE8331 /* NewsImageCell.xib in Resources */,
+				2A9E31522327C8E0007DB3E6 /* Assets.xcassets in Resources */,
+				2AD1F671237B73DB0035EDFA /* GroupXibCell.xib in Resources */,
+				2A9E31502327C8E0007DB3E6 /* Main.storyboard in Resources */,
+				2AAFA4FC23467C5200EEE296 /* FriendsCell.xib in Resources */,
+				2A27913523DE43AE00AE8331 /* NewsTableCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AA99457362F66455FB64B50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VKontakte-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7203B2C5AF7E993FCDBE68CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VKontakte/Pods-VKontakte-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VKontakte/Pods-VKontakte-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VKontakte/Pods-VKontakte-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A9E31432327C8E0007DB3E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A273136239340C600B32925 /* Session.swift in Sources */,
+				2A9E314D2327C8E0007DB3E6 /* LoginViewController.swift in Sources */,
+				2ABC30E62378018100FE1BAE /* NewsImagesCell.swift in Sources */,
+				2A7006CF2377DAD1005BC8EB /* News.swift in Sources */,
+				2AAB7FF9233BE9020051AE5B /* LikeControll.swift in Sources */,
+				2AEFF453242A6AD300CBD1EE /* RealmService.swift in Sources */,
+				2A27913823DE4E2000AE8331 /* NewsImageCell.swift in Sources */,
+				2AB8D10E23881C6A0049989C /* CustomPush+PopAnimators.swift in Sources */,
+				2A642232232FBAEE006DF482 /* MyGroupsController.swift in Sources */,
+				2AAFA50423471DDA00EEE296 /* GroupsCell.swift in Sources */,
+				2A593ED423DEFDF900B2969C /* NewsShareCell.swift in Sources */,
+				2AE24A902395CF2D00EF9A9E /* VKLoginController.swift in Sources */,
+				2AB8D10C23880E2A0049989C /* CustomNavigationController.swift in Sources */,
+				2AD1F670237B73DB0035EDFA /* GroupXibCell.swift in Sources */,
+				2AD9A1B823B3A8A70091DF91 /* Photo.swift in Sources */,
+				2A27913423DE43AE00AE8331 /* NewsTableCell.swift in Sources */,
+				2A7C587D234765DA00DF388A /* UIImageExtensions.swift in Sources */,
+				2A9E314B2327C8E0007DB3E6 /* AppDelegate.swift in Sources */,
+				2A642230232FBAC1006DF482 /* MyFriendsController.swift in Sources */,
+				2AB8D10A2387F6E00049989C /* Animator.swift in Sources */,
+				2A5AF46223D77D0500E6F75B /* NewsFeedItems.swift in Sources */,
+				2A593ED723DF15BD00B2969C /* NewsFeedAttachments.swift in Sources */,
+				2A21D8E5238C967E00E29CFF /* LabelAnimation.swift in Sources */,
+				2A21D8E7238C9F0C00E29CFF /* CollectionLayout.swift in Sources */,
+				2A593EDB23E59E5600B2969C /* NewsFeedGroup.swift in Sources */,
+				2A593ED923E1BC2300B2969C /* NewsFeedProfiles.swift in Sources */,
+				2A65BA2F234A27F5009C6F0B /* NewsCell.swift in Sources */,
+				2A7C587B234765B300DF388A /* UIBezierPathExtension.swift in Sources */,
+				2A5AF46423D79B4200E6F75B /* NewsFeedController.swift in Sources */,
+				2AAB7FF123381D4A0051AE5B /* User.swift in Sources */,
+				2AE0F8F92366FBA50097BE9A /* UIViewController+Ext.swift in Sources */,
+				2A8921F72395A6FE003DD4CB /* NetworkService.swift in Sources */,
+				2A21D8E9238CC26700E29CFF /* BigPhotoController.swift in Sources */,
+				2A07BE57233543C4003C40E1 /* FriendsImagesController.swift in Sources */,
+				2AAB7FF72338F72B0051AE5B /* UserImageShadow.swift in Sources */,
+				2ABC30E22377F07900FE1BAE /* NewsImageView.swift in Sources */,
+				2A231449236B9E83003877A2 /* Header.swift in Sources */,
+				2AAFA50223471CAB00EEE296 /* FriendsCell.swift in Sources */,
+				2A5EDD8123872E7700264FFA /* LoadingAnimation.swift in Sources */,
+				2A25F11C23D3A59B0011D3DC /* University.swift in Sources */,
+				2AAB7FF52338D79F0051AE5B /* UserImageView.swift in Sources */,
+				2A07BE592335464F003C40E1 /* AllGroupsController.swift in Sources */,
+				2AECD89E2337F79A00FFD790 /* UserImageCell.swift in Sources */,
+				2A5EDD7F23871F1F00264FFA /* Group.swift in Sources */,
+				2AB8D110238825650049989C /* CustomSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A9E314E2327C8E0007DB3E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9E314F2327C8E0007DB3E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A9E31532327C8E0007DB3E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9E31542327C8E0007DB3E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A9E31572327C8E0007DB3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A9E31582327C8E0007DB3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A9E315A2327C8E0007DB3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F972342E2C67BE89CC92744C /* Pods-VKontakte.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ANZY857GD5;
+				INFOPLIST_FILE = "$(SRCROOT)/VKontakte/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maximsafronov.VKontakte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A9E315B2327C8E0007DB3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59F49795140D4F7B03DB23F /* Pods-VKontakte.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ANZY857GD5;
+				INFOPLIST_FILE = "$(SRCROOT)/VKontakte/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maximsafronov.VKontakte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A9E31422327C8E0007DB3E6 /* Build configuration list for PBXProject "VKontakte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9E31572327C8E0007DB3E6 /* Debug */,
+				2A9E31582327C8E0007DB3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A9E31592327C8E0007DB3E6 /* Build configuration list for PBXNativeTarget "VKontakte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9E315A2327C8E0007DB3E6 /* Debug */,
+				2A9E315B2327C8E0007DB3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A9E313F2327C8E0007DB3E6 /* Project object */;
+}
