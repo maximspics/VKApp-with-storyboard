@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Header" customModule="VKontakte" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="77"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JDC-Li-DJR">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="77"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7c-Wf-iSM">
+                            <rect key="frame" x="8" y="30" width="37.5" height="17"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.062745098039215685" green="0.062745098039215685" blue="0.062745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="l7c-Wf-iSM" firstAttribute="leading" secondItem="JDC-Li-DJR" secondAttribute="leading" constant="8" id="KLz-44-tko"/>
+                        <constraint firstItem="l7c-Wf-iSM" firstAttribute="centerY" secondItem="JDC-Li-DJR" secondAttribute="centerY" id="v5y-Gb-nnc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="JDC-Li-DJR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jqR-Pw-HzE"/>
+                <constraint firstItem="JDC-Li-DJR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nOE-Nl-G9u"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="JDC-Li-DJR" secondAttribute="bottom" id="u4Z-Uj-MVw"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="JDC-Li-DJR" secondAttribute="trailing" id="uVW-33-Bxg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="headerLabel" destination="l7c-Wf-iSM" id="qQp-22-Qby"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="-172.43303571428569"/>
+        </view>
+    </objects>
+</document>

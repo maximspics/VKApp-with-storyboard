@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="9n3-nf-Sj7" customClass="FriendsCell" customModule="VKontakte" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="619" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9n3-nf-Sj7" id="P55-AS-Hbc" customClass="FriendsCell" customModule="VKontakte" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="619" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HC7-dN-5lE" customClass="GradientView" customModule="VKontakte" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="619" height="90"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ggv-ow-8cB" customClass="ShadowView" customModule="VKontakte" customModuleProvider="target">
+                                <rect key="frame" x="557" y="16" width="46" height="58"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E4n-IE-mYt">
+                                        <rect key="frame" x="0.0" y="4" width="46" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="E4n-IE-mYt" firstAttribute="top" secondItem="ggv-ow-8cB" secondAttribute="top" constant="4" id="BPg-Z0-AIr"/>
+                                    <constraint firstItem="E4n-IE-mYt" firstAttribute="leading" secondItem="ggv-ow-8cB" secondAttribute="leading" id="bKM-6Q-e1e"/>
+                                    <constraint firstItem="E4n-IE-mYt" firstAttribute="centerY" secondItem="ggv-ow-8cB" secondAttribute="centerY" id="f4E-2i-6Hm"/>
+                                    <constraint firstItem="E4n-IE-mYt" firstAttribute="centerX" secondItem="ggv-ow-8cB" secondAttribute="centerX" id="l5t-aa-0xQ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3b-JN-LfV">
+                                <rect key="frame" x="20" y="34.5" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="TcH-3k-WrW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ggv-ow-8cB" firstAttribute="leading" secondItem="HC7-dN-5lE" secondAttribute="leading" constant="557" id="2Rj-qu-QIQ"/>
+                            <constraint firstItem="h3b-JN-LfV" firstAttribute="leading" secondItem="HC7-dN-5lE" secondAttribute="leading" constant="20" id="Ocv-pB-vQx"/>
+                            <constraint firstItem="ggv-ow-8cB" firstAttribute="top" secondItem="HC7-dN-5lE" secondAttribute="top" constant="16" id="VjN-Ke-9D2"/>
+                            <constraint firstItem="h3b-JN-LfV" firstAttribute="centerY" secondItem="HC7-dN-5lE" secondAttribute="centerY" id="gD6-fG-SeD"/>
+                            <constraint firstAttribute="trailing" secondItem="ggv-ow-8cB" secondAttribute="trailing" constant="16" id="sYM-J5-0RV"/>
+                            <constraint firstItem="h3b-JN-LfV" firstAttribute="centerY" secondItem="ggv-ow-8cB" secondAttribute="centerY" id="zzN-Cx-U6a"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="point" keyPath="startPoint">
+                                <point key="value" x="0.0" y="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="point" keyPath="endPoint">
+                                <point key="value" x="1" y="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                <color key="value" red="0.40151545052815618" green="0.39754376529142843" blue="1" alpha="0.030782350352112676" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                <color key="value" red="0.94003225300000004" green="0.95049779999999995" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="midColor">
+                                <color key="value" red="0.94003225300000004" green="0.95049779999999995" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="HC7-dN-5lE" secondAttribute="bottom" id="7dz-9L-1Ka"/>
+                    <constraint firstAttribute="trailing" secondItem="HC7-dN-5lE" secondAttribute="trailing" id="GaT-UW-mAK"/>
+                    <constraint firstItem="HC7-dN-5lE" firstAttribute="leading" secondItem="P55-AS-Hbc" secondAttribute="leading" id="VYZ-ZN-plC"/>
+                    <constraint firstItem="HC7-dN-5lE" firstAttribute="top" secondItem="P55-AS-Hbc" secondAttribute="top" id="ye7-2x-HzC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avatarView" destination="E4n-IE-mYt" id="Eur-Q6-AHv"/>
+                <outlet property="nameLabel" destination="h3b-JN-LfV" id="0Vp-Gv-9gx"/>
+            </connections>
+            <point key="canvasLocation" x="-7.9710144927536239" y="123.21428571428571"/>
+        </tableViewCell>
+    </objects>
+</document>
